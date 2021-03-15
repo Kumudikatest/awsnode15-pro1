@@ -28,7 +28,7 @@
             "config": {}
           }
         ],
-        "lastUpdated": 1615810291655,
+        "lastUpdated": 1615810524507,
         "testCases": {
           "b3eca403-f9b2-4820-a7b1-c9027c2c64dd": {
             "id": "b3eca403-f9b2-4820-a7b1-c9027c2c64dd",
@@ -73,7 +73,7 @@
         "filePath": "subdir/nodefuncinsidesubdir.js",
         "cursor": {
           "lineNumber": 14,
-          "column": 21
+          "column": 30
         },
         "config": {
           "runtime": "nodejs10.x",
@@ -89,7 +89,16 @@
             "config": {}
           }
         ],
-        "lastUpdated": 1615809195436
+        "lastUpdated": 1615810527666,
+        "testCases": {
+          "a7418893-3d70-4d19-a3fe-45a3c341f6ab": {
+            "id": "a7418893-3d70-4d19-a3fe-45a3c341f6ab",
+            "name": "Test event",
+            "functionId": "c3e5fb95-cbf8-40d7-8631-d9ae3d7e998e",
+            "event": "{\r\n    \"key1\": \"value1\",\r\n    \"key2\": \"value2\",\r\n    \"key3\": \"value3\"\r\n}",
+            "eventTemplate": "hello-world"
+          }
+        }
       },
       "a75e3d47-c5bb-4787-b411-ae55b92de243": {
         "id": "a75e3d47-c5bb-4787-b411-ae55b92de243",
@@ -113,7 +122,7 @@
           "name": "2ndNodefunc"
         },
         "triggers": [],
-        "lastUpdated": 1615809190775
+        "lastUpdated": 1615810518554
       },
       "b2ba38d3-f255-44ed-b13a-77432b21be86": {
         "id": "b2ba38d3-f255-44ed-b13a-77432b21be86",
@@ -145,7 +154,7 @@
       "b2ba38d3-f255-44ed-b13a-77432b21be86",
       "9369f718-e2fc-4d84-af81-3136cd10a6aa"
     ],
-    "currentFileId": "9cd93d92-0c43-46e6-8f9c-3f3dd9e2bcb0",
+    "currentFileId": "c3e5fb95-cbf8-40d7-8631-d9ae3d7e998e",
     "resources": {
       "apigk15kany": {
         "name": "apigk15kany",
@@ -1058,7 +1067,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1615810294246
+    "lastSave": 1615810908345
   },
   "VCS_STATE": {
     "provider": "GitHub",

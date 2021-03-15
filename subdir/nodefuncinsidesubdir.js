@@ -11,5 +11,6 @@ exports.handler = async (event) => {
             delimiter: '-'
         })
     };
+    console.log(response.body)
     return response;
 };
