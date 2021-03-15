@@ -89,7 +89,7 @@
             "config": {}
           }
         ],
-        "lastUpdated": 1615811360003,
+        "lastUpdated": 1615811974535,
         "testCases": {
           "a7418893-3d70-4d19-a3fe-45a3c341f6ab": {
             "id": "a7418893-3d70-4d19-a3fe-45a3c341f6ab",
@@ -679,8 +679,7 @@
         "name": "ses-kumudika@adroitlogic.com",
         "type": "SES",
         "config": {
-          "selectedIdentity": "kumudika@adroitlogic.com",
-          "projectRegion": "us-east-1"
+          "selectedIdentity": "kumudika@adroitlogic.com"
         }
       },
       "ddbk15DDB": {
@@ -699,28 +698,6 @@
             "payPerRequest": true,
             "mode": 0
           }
-        }
-      },
-      "snsTestSNS": {
-        "name": "snsTestSNS",
-        "type": "SNS",
-        "config": {
-          "topicMode": 1,
-          "topicName": "TestSNS",
-          "topicArn": "arn:aws:sns:us-east-1:318300609668:TestSNS",
-          "snsType": 0,
-          "subscriptions": []
-        }
-      },
-      "snsNotifications": {
-        "name": "snsNotifications",
-        "type": "SNS",
-        "config": {
-          "topicMode": 1,
-          "topicName": "Notifications",
-          "topicArn": "arn:aws:sns:us-east-1:318300609668:Notifications",
-          "snsType": 0,
-          "subscriptions": []
         }
       },
       "translateResource": {
@@ -1008,12 +985,34 @@
             ]
           }
         }
+      },
+      "snsTestSNS": {
+        "name": "snsTestSNS",
+        "type": "SNS",
+        "config": {
+          "topicMode": 1,
+          "topicName": "TestSNS",
+          "topicArn": "arn:aws:sns:us-east-1:318300609668:TestSNS",
+          "snsType": 0,
+          "subscriptions": []
+        }
+      },
+      "snsNotifications": {
+        "name": "snsNotifications",
+        "type": "SNS",
+        "config": {
+          "topicMode": 1,
+          "topicName": "Notifications",
+          "topicArn": "arn:aws:sns:us-east-1:318300609668:Notifications",
+          "snsType": 0,
+          "subscriptions": []
+        }
       }
     },
     "customTemplate": {
       "syntax": "JSON",
       "overrideDefault": false,
-      "dialect": null,
+      "dialect": "CloudFormation",
       "definitions": null
     },
     "envVariables": [
@@ -1067,7 +1066,7 @@
     "platform": "AWS",
     "language": "nodejs",
     "platformRegions": {},
-    "lastSave": 1615811363107
+    "lastSave": 1615812079584
   },
   "VCS_STATE": {
     "provider": "GitHub",

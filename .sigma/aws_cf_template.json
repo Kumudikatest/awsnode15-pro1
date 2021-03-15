@@ -487,13 +487,6 @@
                 {
                   "Effect": "Allow",
                   "Action": [
-                    "sns:Publish"
-                  ],
-                  "Resource": "arn:aws:sns:us-east-1:318300609668:Notifications"
-                },
-                {
-                  "Effect": "Allow",
-                  "Action": [
                     "rekognition:CompareFaces"
                   ],
                   "Resource": "*"
@@ -511,6 +504,13 @@
                     "s3:GetObject"
                   ],
                   "Resource": "arn:aws:s3:::sd/sd"
+                },
+                {
+                  "Effect": "Allow",
+                  "Action": [
+                    "sns:Publish"
+                  ],
+                  "Resource": "arn:aws:sns:us-east-1:318300609668:Notifications"
                 }
               ]
             }
@@ -518,7 +518,7 @@
         ]
       }
     },
-    "apigk15APIDeployment1615811389731": {
+    "apigk15APIDeployment1615812085834": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
@@ -531,7 +531,7 @@
         "apigk15APIkANY"
       ]
     },
-    "apigk15Deployment1615811389732": {
+    "apigk15Deployment1615812085834": {
       "Type": "AWS::ApiGateway::Deployment",
       "Properties": {
         "RestApiId": {
