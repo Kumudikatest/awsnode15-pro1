@@ -1,0 +1,9 @@
+{
+    "devDependencies": {
+        "aws-sdk": "2.817.0"
+    },
+    "dependencies": {
+        "mysql": "2.18.1",
+        "haikunator": "2.1.2"
+    }
+}
